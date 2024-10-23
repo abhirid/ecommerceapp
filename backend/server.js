@@ -10,8 +10,8 @@ import orderRouter from './routes/orderRoute.js';
 
 //app config
 const app = express();
-const port =4000
 
+const port=process.env.PORT
 
 //middleware
 app.use(express.json())// whenever we ger request from fornt end to backend it  will parsed in json
